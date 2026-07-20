@@ -9,7 +9,7 @@
                     "name": "Handbreak",
                     "type": "Button",
                     "id": "468de7ad-3a3a-40b6-8312-139053d3a1a1",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -101,7 +101,7 @@
                     "name": "Fire",
                     "type": "Button",
                     "id": "40fdf639-75e8-42b2-a45f-bb96a2519a7d",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -120,7 +120,7 @@
                 {
                     "name": "",
                     "id": "20dd092c-53e4-4f8d-9563-188c32d16625",
-                    "path": "<Keyboard>/e",
+                    "path": "<Keyboard>/q",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
