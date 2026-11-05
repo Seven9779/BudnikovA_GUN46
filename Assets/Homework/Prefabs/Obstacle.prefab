@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 45918775167098464}
   - component: {fileID: 8216868025442335540}
   - component: {fileID: 3993813428046549172}
-  - component: {fileID: 2752368642096084891}
   - component: {fileID: 5994873870769101607}
+  - component: {fileID: 3753423329062423364}
   m_Layer: 0
   m_Name: Obstacle
   m_TagString: Untagged
@@ -107,21 +107,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2752368642096084891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9160057867749254827}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 983886c68c8b412eb9ca00f00ec62168, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _rotate: {x: 0, y: 45, z: 0}
-  _speed: 15
-  _delayRotate: 0.1
 --- !u!54 &5994873870769101607
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -149,3 +134,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3753423329062423364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9160057867749254827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 983886c68c8b412eb9ca00f00ec62168, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rotate: {x: 0, y: 0, z: 0}
+  _speed: 1
+  _delayRotate: 1
